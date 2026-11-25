@@ -50,15 +50,6 @@ export const team581Theme = defineTheme({
 			},
 		},
 	},
-	// Bigger controls for fingers, so touch targets come from the theme instead of each control
-	adaptations: {
-		rules: [
-			{
-				when: { pointer: 'coarse' },
-				value: { tokens: { '--size-element-sm': '36px', '--size-element-md': '40px', '--size-element-lg': '44px' } },
-			},
-		],
-	},
 	onDark: { tokens: invertedTokens('dark') },
 	onLight: { tokens: invertedTokens('light') },
 });
