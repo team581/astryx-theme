@@ -1,0 +1,7 @@
+node_modules/
+*.tgz
+.DS_Store
+# Built by `pnpm build`
+themes/**/*.js
+themes/**/*.d.ts
+themes/*/team581.css

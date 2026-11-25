@@ -1,0 +1,8 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"noEmit": false
+	},
+	"include": [],
+	"files": ["themes/team581/colors.ts", "themes/team581/icons.ts"]
+}

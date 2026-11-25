@@ -1,0 +1,77 @@
+{
+	"name": "@team581/astryx-theme",
+	"version": "0.0.0",
+	"description": "Team 581's Astryx theme and UI design guidelines.",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/team581/astryx-theme.git"
+	},
+	"files": [
+		"themes",
+		"docs",
+		"skills",
+		"astryx.integration.mjs"
+	],
+	"type": "module",
+	"sideEffects": [
+		"*.css"
+	],
+	"exports": {
+		"./colors": "./themes/team581/colors.js",
+		"./themes/team581": "./themes/team581/team581.js",
+		"./themes/team581.css": "./themes/team581/team581.css",
+		"./themes/team581.fonts.css": "./themes/team581/team581.fonts.css"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "tsc -p tsconfig.build.json && astryx theme build themes/team581/team581Theme.ts",
+		"check": "tsc && astryx integration check --strict",
+		"format": "oxfmt --check",
+		"format:fix": "oxfmt",
+		"knip": "knip",
+		"lint": "oxlint",
+		"lint:fix": "oxlint --fix",
+		"prepack": "pnpm build",
+		"verify": "astryx integration verify"
+	},
+	"dependencies": {
+		"@fontsource-variable/ibm-plex-sans": "^5.3.0",
+		"@fontsource-variable/source-sans-3": "^5.3.1",
+		"@fontsource/ibm-plex-mono": "^5.3.0"
+	},
+	"devDependencies": {
+		"@astryxdesign/cli": "0.7.17",
+		"@astryxdesign/core": "0.7.17",
+		"@tsconfig/recommended": "1.0.14",
+		"@tsconfig/strictest": "2.0.9",
+		"@types/react": "19.3.0",
+		"knip": "6.48.0",
+		"lucide-react": "1.79.0",
+		"oxfmt": "0.80.0",
+		"oxlint": "1.94.0",
+		"oxlint-tsgolint": "7.0.2007",
+		"react": "19.3.1",
+		"typescript": "6.0.3"
+	},
+	"peerDependencies": {
+		"@astryxdesign/cli": ">=0.7.4",
+		"@astryxdesign/core": "^0.7.17",
+		"lucide-react": "^1.0.0",
+		"react": "^19.0.0"
+	},
+	"peerDependenciesMeta": {
+		"@astryxdesign/cli": {
+			"optional": true
+		}
+	},
+	"devEngines": {
+		"runtime": {
+			"name": "node",
+			"version": "26.x",
+			"onFail": "warn"
+		}
+	},
+	"packageManager": "pnpm@12.23.0"
+}

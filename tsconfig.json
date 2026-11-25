@@ -1,0 +1,12 @@
+{
+	"extends": ["@tsconfig/strictest", "@tsconfig/recommended"],
+	"compilerOptions": {
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"target": "ES2022",
+		"declaration": true,
+		"skipLibCheck": true,
+		"noEmit": true
+	},
+	"include": ["themes/**/*.ts", "knip.config.ts"]
+}
