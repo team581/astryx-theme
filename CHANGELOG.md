@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/team581/astryx-theme/compare/v1.1.0...v1.1.1) (2026-11-26)
+
+
+### Bug Fixes
+
+* make dark mode's surfaces less red ([2c0f8f8](https://github.com/team581/astryx-theme/commit/2c0f8f808ab5444627dff57db0226ee0c458d1a2))
+
 ## [1.1.0](https://github.com/team581/astryx-theme/compare/v1.0.1...v1.1.0) (2026-11-26)
 
 
