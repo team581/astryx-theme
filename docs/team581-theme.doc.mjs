@@ -21,7 +21,7 @@ export default {
 				},
 				{
 					type: 'prose',
-					text: "To change part of it, extend the theme instead of copying it. `@team581/astryx-theme/colors` exports the palette's seed colors, for an app that generates its own palettes, such as color presets.",
+					text: "To change part of it, extend the theme instead of copying it. `@team581/astryx-theme/colors` exports the theme's palette, and its seed colors for an app that generates its own palettes, such as color presets.",
 				},
 				{
 					type: 'code',

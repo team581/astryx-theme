@@ -9,7 +9,7 @@ pnpm exec astryx theme add team581 --package @team581/astryx-theme
 
 Read how to apply or extend the theme with `pnpm exec astryx docs theme`. The design guidelines ship as the `team581-design` agent skill, which pnpm links into your agent's skills folder once you run `pnpm approve`.
 
-`@team581/astryx-theme/colors` exports the palette's seed colors for apps that generate their own palettes.
+`@team581/astryx-theme/colors` exports the theme's palette, and its seed colors for apps that generate their own palettes.
 
 ## Development
 

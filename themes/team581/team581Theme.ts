@@ -1,6 +1,5 @@
-import { themePalette } from '@astryxdesign/core/palette';
 import { defineTheme } from '@astryxdesign/core/theme';
-import { team581Seeds } from './colors.js';
+import { team581Palette } from './colors.js';
 import { team581Icons } from './icons.js';
 
 /**
@@ -23,7 +22,7 @@ function invertedTokens(surface: 'dark' | 'light'): Record<string, string> {
 /** Team 581's Astryx theme */
 export const team581Theme = defineTheme({
 	name: 'team581',
-	palette: themePalette(team581Seeds),
+	palette: team581Palette,
 	icons: team581Icons,
 	typography: {
 		scale: { base: 14, ratio: 1.2 },
