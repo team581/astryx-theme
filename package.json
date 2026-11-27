@@ -46,7 +46,7 @@
 		"@astryxdesign/core": "0.7.17",
 		"@tsconfig/recommended": "1.0.14",
 		"@tsconfig/strictest": "2.0.9",
-		"@types/react": "19.3.0",
+		"@types/react": "19.3.3",
 		"knip": "6.48.0",
 		"lucide-react": "1.79.0",
 		"oxfmt": "0.80.0",
